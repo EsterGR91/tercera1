@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 
 <meta name="Proyecto Tercera" content="Proyecto Tercera">
-<link rel="stylesheet" href="./css/main.css?v=7">
+<link rel="stylesheet" href="./css/main.css?v=8">
 
 
 
@@ -35,7 +35,12 @@
 
 </div>
     <div class="menu-derecha">
-
+               
+    <img src="./img/face.png" alt="" height="30">
+    <img src="./img/Wha.png" alt="" height="30">
+    <img src="./img/tw.png" alt="" height="30">
+    <img src="./img/you.png" alt="" height="30">
+    
     </div>
 
 </div>

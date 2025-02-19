@@ -69,3 +69,35 @@ justify-content: space-around;
 
 }
 
+/* Estilos para la barra de navegación */
+.menu-down {
+    display: flex; /* Alinea los elementos en fila */
+    justify-content: space-between; /* Distribuye los elementos en los extremos */
+    align-items: center; /* Centra verticalmente */
+    background-color: black; /* Asegura el fondo negro */
+    padding: 10px 20px; /* Ajusta el espaciado interno */
+}
+
+/* Asegura que el menú de la izquierda se mantenga alineado */
+.menu-izquierda {
+    display: flex;
+    gap: 15px; /* Espaciado entre los enlaces */
+}
+
+/* Asegura que el menú de la derecha (redes sociales) esté alineado */
+.menu-derecha {
+    display: flex; /* Alinea los íconos en fila */
+    gap: 10px; /* Espaciado entre íconos */
+}
+
+/* Estilos para los íconos */
+.menu-derecha img {
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.menu-derecha img:hover {
+    transform: scale(1.1);
+}
