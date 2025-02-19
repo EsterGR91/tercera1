@@ -5,8 +5,67 @@
 }
 
 menu {
-    background-color: brown;
- width: 100%;
- height: 300px;
+    background-color: #101010 !important;
+    width: 100%;
+    height: 110px;
+    
+}
+
+.menu-up {
+
+    height: 50%;
+    border: 1px solid #626262;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px;
+    
+
 
 }
+
+.menu-down {
+
+   
+    height: 50%;
+   border: 1px solid #626262; 
+   display: flex;
+   flex-direction: row;
+
+
+}
+
+.menu-izquierda {
+padding-left: 50px;
+width: 700px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+
+}
+
+.menu-izquierda a :hover{
+
+    color:rgb(6, 212, 20);
+}
+
+.menu-izquierda a {
+   
+        text-decoration: none;
+        color: #bbb;
+        text-transform: uppercase;
+        display: inline-block;
+        font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        height: 50px;
+        letter-spacing: 1px;
+        white-space: nowrap;
+        line-height: 50px;
+        cursor: pointer;
+    
+
+}
+
