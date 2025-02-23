@@ -7,7 +7,8 @@
 <meta charset="utf-8">
 
 <meta name="Proyecto Tercera" content="Proyecto Tercera">
-<link rel="stylesheet" href="./css/main.css?v=8">
+<link rel="stylesheet" href="./css/main.css?v=11">
+
 
 
 
